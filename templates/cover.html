@@ -1,0 +1,49 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block title %}
+{% endblock title %}
+{% block body %}
+
+
+<div class="container-fluid px-0">
+  <img class="d-block w-100" src="/static/cover_pic2.jpg" alt="First slide">
+  <div class="carousel-caption">
+    <h2>Your Resume has been created</h2>
+  <div class="carousel-button">
+    <a href="/about" class="btn btn-success" role="button" aria-pressed="true">View Now!</a>
+
+  </div>
+</div>
+
+
+<!--<header class="masthead text-white text-center">
+  <div class="overlay"></div>
+  <div class="container">
+    <div class="row">
+      <div class="col-xl-9 mx-auto">
+        <h1 class="mb-5">Your Resume has been created</h1>
+      </div>
+      <div class="col-md-10 col-lg-8 col-xl-7 mx-auto">
+        <form>
+          <div class="form-row ">
+
+            <div class="col-12 col-md-6">
+              <a href="/about" class="btn btn-success" role="button" aria-pressed="true">View Now!</a>
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</header>-->
+<style>
+  .carousel-caption {
+    position: absolute;
+    bottom: 55%;
+    left: 5%;
+    z-index: 20;
+    color: Black;
+    text-shadow: 0 1px 2px rgba(0, 0, 0, .6);
+  }
+</style>
+{% endblock body %}
